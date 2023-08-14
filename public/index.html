@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="main-content">
+        <h1>Hi Everybody!</h1>
+
+        <p id="elementSelectedById">You can use an element's id to add css styling. An id can only exist once in an html file.</p>
+        <p class="elementSelectedByClass">You can use an element's class to add css styling. A class can be used multiple times.</p>
+        <p class="elementSelectedByClass">This p element also has the class elementSelectedByClass</p>
+
+        <div>
+            <p>You can also select all the elements on a page and apply the same css styling to them.</p>
+        </div>
+
+        <h2>Organizing containers, aka div's, with flex</h2>
+        <h6>A demonstration with columns and rows</h6>
+    </section>
+
+    <section id="flex-column-start">
+        <div class="columnBoxOne"></div>
+        <div class="columnBoxTwo"></div>
+        <div class="columnBoxThree"></div>
+    </section>
+
+    <section id="flex-column-center">
+        <div class="columnBoxOne"></div>
+        <div class="columnBoxTwo"></div>
+        <div class="columnBoxThree"></div>
+    </section>
+
+    <section id="flex-column-end">
+        <div class="columnBoxOne"></div>
+        <div class="columnBoxTwo"></div>
+        <div class="columnBoxThree"></div>
+    </section>
+
+    <section id="flex-row-start">
+        <div class="rowBoxOne"></div>
+        <div class="rowBoxTwo"></div>
+        <div class="rowBoxThree"></div>
+    </section>
+
+    <section id="flex-row-center">
+        <div class="rowBoxOne"></div>
+        <div class="rowBoxTwo"></div>
+        <div class="rowBoxThree"></div>
+    </section>
+
+    <section id="flex-row-end">
+        <div class="rowBoxOne"></div>
+        <div class="rowBoxTwo"></div>
+        <div class="rowBoxThree"></div>
+    </section>
+
+    <h2>Other random stuff</h2>
+
+    <!-- unordered lists -->
+    <ul>
+        <li>Make a list</li>
+        <li>Check it twice</li>
+        <li>Something, something, profit</li>
+    </ul>
+
+    <!-- ordered lists -->
+    <ol>
+        <li>Make another list</li>
+        <li>Why so many lists?</li>
+        <li>Something, something, profit</li>
+    </ol>
+
+    <!-- This will use javascript to add "action" to the button -->
+    <button id="myButton">NEXT PAGE</button>
+
+    <!-- IMPORT (connect) the JS file at the bottom via the "script" tag -->
+    <script src="action.js"></script>
+</body>
+</html>

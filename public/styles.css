@@ -1,0 +1,99 @@
+#main-content {
+    text-align: center;
+}
+
+#elementSelectedById {
+    color: red;
+}
+
+.elementSelectedByClass {
+    color: green;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+}
+
+#flex-column-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#flex-column-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+#flex-row-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#flex-row-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.columnBoxOne {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+.columnBoxTwo {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+.columnBoxThree {
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+}
+
+.rowBoxOne {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.rowBoxTwo {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.rowBoxThree {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+}
